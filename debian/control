@@ -19,16 +19,12 @@ Vcs-Git: https://github.com/UbuntuBudgie/arc-theme.git -b debian
 
 Package: arc-theme
 Architecture: all
-Depends: gnome-themes-extra,
- gtk2-engines-murrine,
- gtk2-engines-pixbuf,
- ${misc:Depends}
+Depends: ${misc:Depends}
 Description: Flat theme with transparent elements
- Arc is a flat theme with transparent elements for GTK+4, GTK+ 3,
- GTK+ 2 and GNOME Shell which supports GTK+ 3 and GTK+ 2 based
- desktop environments like GNOME, Unity, Budgie, Pantheon, Xfce,
- MATE, Cinnamon, etc.
- Arc also includes a GTK+ theme for Plank.
+ Arc is a flat theme with transparent elements for GTK 4, GTK 3,
+ and GNOME Shell which supports GTK based desktop environments like
+ GNOME, Unity, Budgie, Pantheon, Xfce, MATE, Cinnamon, etc.
+ Arc also includes a GTK theme for Plank.
  .
  Arc is available in four variants:
  Arc, Arc-Darker, Arc-Dark, Arc-Lighter
