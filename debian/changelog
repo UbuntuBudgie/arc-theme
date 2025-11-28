@@ -1,3 +1,12 @@
+arc-theme (20221218-2) unstable; urgency=medium
+
+  * No longer build for GTK-2 - thanks to Jeremy Bicha for the patch
+  * d/control remove unneeded B/D debhelper
+  * d/control remove dependencies from binary package and revise
+    binary package description
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 28 Nov 2025 15:37:46 +0000
+
 arc-theme (20221218-1) unstable; urgency=medium
 
   * New upstream release
