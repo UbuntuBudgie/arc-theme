@@ -1,0 +1,26 @@
+Author: Kyuyrii <nyzukzybyakko@gmail.com>
+Last-Update: 2025-07-24
+Description: [PATCH 2/3] Attempt to add support for Labwc
+Origin: https://github.com/jnsh/arc-theme/pull/230
+
+---
+ common/meson.build | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/common/meson.build b/common/meson.build
+index e4070f04..cda30ce1 100644
+--- a/common/meson.build
++++ b/common/meson.build
+@@ -23,7 +23,8 @@ common_dirs = {
+   'metacity' : 'metacity-1',
+   'plank' : 'plank',
+   'unity' : 'unity',
+-  'xfwm' : 'xfwm4'
++  'xfwm' : 'xfwm4',
++  'labwc' : 'labwc'
+ }
+ 
+ foreach theme : get_option('themes')
+-- 
+2.51.0
+

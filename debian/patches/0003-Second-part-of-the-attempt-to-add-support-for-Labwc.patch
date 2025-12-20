@@ -1,0 +1,25 @@
+Author: Kyuyrii <nyzukzybyakko@gmail.com>
+Last-Update: 2025-07-24
+Description: [PATCH 3/3] Second part of the attempt to add support for Labwc
+Origin: https://github.com/jnsh/arc-theme/pull/230
+
+---
+ meson_options.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/meson_options.txt b/meson_options.txt
+index 41b517a4..7b12c9af 100644
+--- a/meson_options.txt
++++ b/meson_options.txt
+@@ -1,7 +1,7 @@
+ option(
+   'themes',
+   type: 'array',
+-  choices: ['cinnamon', 'gnome-shell', 'gtk2', 'gtk3', 'gtk4', 'metacity', 'plank', 'unity', 'xfwm'],
++  choices: ['cinnamon', 'gnome-shell', 'gtk2', 'gtk3', 'gtk4', 'metacity', 'plank', 'unity', 'xfwm', 'labwc'],
+   description: 'List of themes to build',
+ )
+ 
+-- 
+2.51.0
+

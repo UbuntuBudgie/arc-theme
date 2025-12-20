@@ -1,3 +1,14 @@
+arc-theme (20221218-3) unstable; urgency=medium
+
+  * Add patches for labwc support
+    0001-Labwc-folder.patch
+    0002-Attempt-to-add-support-for-Labwc.patch
+    0003-Second-part-of-the-attempt-to-add-support-for-Labwc.patch
+    0001-budgie-Small-adjustment-to-the-Ubuntu-Budgie-menu-ca.patch
+  * Add patch for budgie-desktop menu
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 20 Dec 2025 08:52:48 +0000
+
 arc-theme (20221218-2) unstable; urgency=medium
 
   * No longer build for GTK-2 - thanks to Jeremy Bicha for the patch
